@@ -9,12 +9,12 @@
           Local Businessess Near You
         </p>
         <p class="font-bold mt-8 mb-4 filterby">Filter by</p>
-        <button class="mx-8 filters" @click="changeColor">Ratings</button>
-        <button href="" class="mx-8 filters" @click="changeColor">
+        <button class="mx-8 filters">Ratings</button>
+        <button href="" class="mx-8 filters">
           Review
         </button>
-        <button class="mx-8 filters" @click="changeColor">Name</button>
-        <button class="mx-8 filters mb-16" @click="changeColor">Nearest</button>
+        <button class="mx-8 filters">Name</button>
+        <button class="mx-8 filters mb-16">Nearest</button>
         <ItemResult />
       </div>
     </div>
